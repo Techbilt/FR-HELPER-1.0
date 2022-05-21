@@ -1,0 +1,159 @@
+CHANGE LOG:
+21 MAY 2022
+	- Added Clouded and Leapard to Banescales
+	- Added Sparkle
+
+
+5 Mar 2022
+	- Update Abberation Genes to properly reflect their actual rarity.
+	- Added missing Eye type: Glowing, Innocent, Swirl, and Dark Sclera.
+
+4 Mar 2022
+	- Added missing Genes (an assortment of Genes that I added over the course of months but forgot to write down but let me know if I am missing any of them and I will add them.)
+	- Added Abberation.
+
+24 JULY 2021
+	- Added new Modern Genes Flaunt and Flare!
+
+16 JUN 2021
+	- Made the Pinkerlocke helper easier, Added Material subcategories - DragonMade, Minerals & Ores, and Organic Materials to make decisions easier.
+	- Added Obelisk breed.
+	- Fixed Bug where Veilspun wasn't recognized as an Ancient Breed.
+	- Added Techbilts Version of the Pinkerlocke Rules.
+		Food: 
+			Plants: 10-20 Battles in the Coliseum
+			Insect: 20-30 Battles in the Coliseum
+			Seafood: 30-40 Battles in the Coliseum			
+			Meat: 40-50 Battles in the Coliseum
+
+		Materials:
+			Dragonmade materials: Battle 20 monsters in the Coliseum
+			Minerals & Ores: Battle 40 monsters in the Coliseum.
+			Organics: Battle 60 monsters in the Coliseum.
+
+		Apperal:
+			Breed two of your dragons, when they are ready to hatch you musr flip a coin for each hatchling.
+
+		Familiar:
+			Buy the Cheapest already Named dragon of a certain flight and breed in the auction house.
+
+		Battle:
+			Randomly Select 3 Dragons and fight in the Coliseum for 10 rounds consecutively.  Quitting if a dragon dies.
+
+		Trinkets:
+			Write or Draw for your Pinkerlocke
+
+			
+
+05 JUN 2021:
+	- Added Missing Gaelor Gene Phantom and Spirit
+	- Added Pastel and Bright Eye Types
+	- Added a small Breeding Card Generator.
+
+29 MAY 2021:
+	- Added Modern Primary Gene: Stitches.
+	- Added Modern Secondary Gene: Patchwork.
+	- Added Modern Tertiary Gene: Koi
+	- Added New Ancient Breed Veilspun
+	- Added Veilspun ancient Breed Primary Genes:  Bright, Shell, SphinxmothArc, Fade, 
+		Laced, Starmap, Stitched, Tapir, Skink, Vipera, Wasp, Jupiter, Clown, Giraffe
+	- Added Veilspun Ancient Breed Seconadry Genes: Blend, Edged, Constellation, Patchwork,
+		Striation, Spinner, Hypnotic, Bee, Saturn, Loop, Vivid, Web, eye spots, Hex, and Hawkmoth.
+	- Added Veilspun Ancient Breed Tertiary Genes: Diaphanous, Mop, Thorns, Beetle, Flecks, 
+		Branches, Capsure, Firefly, Opal, Runes, Crackle, Okapi, Peacock, Stained, Underbelly.
+	- Added Gaelor Primary Genes: Clown, laced, and Ripple
+	- Added Gaelor Secondary Genes: Eye Spots, Current, Edged
+	- Added Gaelor Tertiary Gene: Stained
+	- Added Bonescale Primary Genes: Clown, Falcon, Ripple, Giraffe, Tapir
+	- Added Bonescale Secondary Genes: Eyes spots, Peregrine, Current, Hex, Triation
+	- Added Bonescale Tertiary Gene: Stained 
+
+
+23 JUL 2020:
+	- Added New Modern Primary Gene Mosaic
+	- Added New Modern Secondary Gene Breakup.
+
+21 JUL 2020
+	- Fixed Typo in Jaguar(Gaoler) gene
+	- Added Missing Modern Primary Gene Fade
+	- Added Missing Modern Secondary Gene Blend
+	- Alphabetized Genes, Breeds, and Flights in Sale Card helper.
+
+23 JUL 2020:
+	- Added new Modern Primary Gene Mosaic
+	- Added new Modern Secondary Gene Breakup
+
+19 JUL 2020:
+	- Updated Gaoler Tertiary Gene: Braids
+
+13 JUN 2020:
+	- Updated the look of the Breeding card Generator and made it small screen friendly!
+
+12 JUN 2020:
+	- Added New Coli Venue: Forbidden Portal
+
+16 MAY 2020:
+	- Added modern Tertiary Gene Keel
+		- Added Modern Tertiary Gene Glow Tail
+		- Added links to the best places to look for help, Tumblr and meesage directly to my lair 
+		- Added a disclaimer.
+
+	BREED CARD GENERATOR UPDATES
+		- fixed bug where if you didn't enter a Dragon ID number the program would error out.
+
+	SALE CARD BBCODE GENERATOR UPDATES
+		- Users now have the option of showing Dragon's ID number for sale card.
+
+16 APR 2020:
+	- Fixed Typo where I spelt Pearlcatcher wrong.
+	- Added Dragon Info/Sale card BBCode Generator!
+
+	Pinkerlocke Helper:
+		- Added Banescale Dragons to list of Dragons to look for when Pinkerton gives you a familiar
+
+	Breeding Card Stats Generator:
+		- Fixed bug where rareness indicators wouldn't go away after tou've generated a card to show them.
+
+14 APR 2020:
+	- Added Slime modern primary gene
+	- Added Speckle modern primary gene
+	- Added Marbled modern secondary gene
+	- Added Sludge modern secondary gene
+	- Added Veined modern tertiary gene
+	- Added Underbelly Banescale tertiary gene
+	- Added Fans Gaoler tertiary gene
+	- Added Veined Gaoler Tertiary gene
+	- Fixed Bug where Dragons with two digit ID would error out when looking for image.
+	- Added option to see rarity of genes with a check box.  So see what genes are common and which ones are rare!
+
+14 DEC 2019:
+	- Long Drop Coli Challenge Helper: Made it so you can add only 1 or 2 dragons as part of the roster, you are no longer required to have all three spots filled in order to save.
+	- Breed Card Generator: Added New Ancient Breed Bonescale!  Includeing the released Genes!
+
+07 JUL 2019:
+     - updated so it saves the same list and not just adds onto the list.  you might experiance some missing notible items as well as missing collected numbers. 
+     - Updated so if the user decides to install the program it saves it to a specific location, not in the same working directory (You might experiance some data loss I would suggest making note of your current save file and delete the old ColiLongDrop.bin file)
+     - Fixed text in the Pinkerlocke challenge so Exalt is spelled correctly. 
+     - updated LDCC helper so the user can optionally add in the avatar images of their coli team.  NOTE: MUST HAVE THREE DRAGONS ON COLI TEAM OR IT WONT SAVE THE DRAGONS.
+     - Added the Breed card generator, it only works if both the parents are fillwed out it will error.  
+
+10 Jun 2019
+     - Add the ability to Save LDCC progress.
+     - added the ability to load LDCC progress and continue where you left off previously!
+     - For Pinkerlocke helper added a hatchling helper, as per Pinkerlocke rules flip a digital coin to decide which Eggs survive to being hatchlings when they hatch.
+NOTE!!!!  DO NOT TOUCH THE ColiLongDrop.bin FILE THIS IS NEEDED TO KEEP TRACK OF THE LDCC PROGRESS YOU HAVE MADE!!
+
+
+8 JUNE 2019
+      - added Long Drop Coli Challenge helper.
+      - added the Pinkerlocke helper.
+
+
+11 May 2019:
+      - made it so the text box clears out after generating bbcode for items, skins, users and ping list
+      - corrected ping bbcode to remove '[' and ']' and only have the @ for pinging.
+      - corrected URL code to actually end after the image of the dragon
+      - fixed bug where copying the Dragon ID sprung an error/wouldn't properly generate a code.
+
+
+

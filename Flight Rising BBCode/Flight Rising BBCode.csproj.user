@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\Katy\Downloads\|C:\Users\Techb\Documents\|D:\|E:\Programs\|G:\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory>http://www1.flightrising.com/lair/64764</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>http://www1.flightrising.com/lair/64764</ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Program Files\FR Techbilt\</ReferencePath>
+  </PropertyGroup>
+</Project>
