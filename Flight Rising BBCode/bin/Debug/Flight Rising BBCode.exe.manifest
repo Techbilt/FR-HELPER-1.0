@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Flight Rising BBCode.exe" size="561152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Flight Rising BBCode.exe" size="563712">
       <assemblyIdentity name="Flight Rising BBCode" version="1.0.1.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CBC7xlWXl8XzloU65s94Xyq83vP4tASnk06OnJwDHe4=</dsig:DigestValue>
+        <dsig:DigestValue>l2MXLSNaI8oiU5LqqFrtEW6zv85S7DOGnhqOWw1g1LA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,13 +72,13 @@
       <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FR BBCode ChangeLog.txt" size="6813">
+  <file name="FR BBCode ChangeLog.txt" size="7182">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ymQ/2bfR6gBlKbQBh1DcMY082slzuCblrabGp4HddcA=</dsig:DigestValue>
+      <dsig:DigestValue>QXUG6Sm5Npdan3I996ZsHOW4PEp4RVIoxNmAh0VBbnI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon_gems.png" size="1154">
