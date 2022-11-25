@@ -1,4 +1,19 @@
 CHANGE LOG:
+
+24 NOV 2022
+	- Added Undertide Breed and Genes
+
+24 Sep 2022
+	-New Tert Gene Sparkle (for all Dragons and All Ancients)
+	- Glimmer to Abberation, Banescale, Gaoler, and Veil
+	- Flaunt Added to Abberation, and Gaelor
+	- Flare added to Abberation and Gaolor
+	- Flecks added to Modern and Abberation
+	- Soap Tert to Moderns
+	- Peacock Tert to Banescales
+
+
+
 21 MAY 2022
 	- Added Clouded and Leapard to Banescales
 	- Added Sparkle

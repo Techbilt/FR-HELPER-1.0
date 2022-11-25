@@ -59,7 +59,7 @@ namespace Flight_Rising_BBCode
 		}
 
 
-		internal string[,] CreateTertGeneList(string type)
+		internal string[,] CreateTertGeneList(string type)  //NEW
 		{
 			if (type == "Gaoler")
 			{
@@ -107,10 +107,12 @@ namespace Flight_Rising_BBCode
 					{"Contour", "Common" },
 					{"Ghost", "Uncommon" },
 					{"Crackle", "Uncommon" },
+					{"Glimmer", "Rare" },
 					{"Underbelly", "Common" },
 					{"Stained", "Rare" },
 					{"Capsule", "Limited" },
-					{"Sparkle", "Uncommon" }
+					{"Sparkle", "Uncommon" },
+					{"Peacock", "Common" }
 
 				};
 				return genes;
@@ -123,6 +125,7 @@ namespace Flight_Rising_BBCode
 					{"Beetle", "Limited" },
 					{"Branches", "Limited" },
 					{"Capsule", "Limited" },
+					{"Glimmer", "Rare" },
 					{"Crackle", "Uncommon" },
 					{"Diaphanous", "Rare" },
 					{"Firefly", "Limited" },
@@ -131,6 +134,7 @@ namespace Flight_Rising_BBCode
 					{"Okapi", "UnCommon" },
 					{"Opal", "Rare" },
 					{"Peacock", "Common" },
+					{"Glimmer", "Rare" },
 					{"Runes", "Limited" },
 					{"Thorns", "Uncommon" }, // double check
 					{"Stained", "Rare" },
@@ -160,12 +164,46 @@ namespace Flight_Rising_BBCode
 					{"Scales", "Limited" }, // double check
 					{"Thylacine", "Common" },
 					{"Veined", "Limited" },
-					{"Sparkle", "Uncommon" }
+					{"Sparkle", "Uncommon" },
+					{"Glimmer", "Rare" },
+					{"Flecks", "Limited" }
 				};
 
 				return genes;
 			}
-			else
+            else if (type == "Undertide")
+            {
+                string[,] genes = new string[,]
+                {
+                    { "Basic", "Plentiful"},
+                    { "Capsule", "Limited"},
+                    { "Circuit", "Rare"},
+                    { "Crackle", "Uncommon"},
+                    { "Featherbeard", "Limited"},
+                    { "Filigree", "Rare"},
+                    { "Flecks", "Uncommon"},
+                    { "Gembond", "Limited"},
+                    { "Ghost", "Uncommon"},
+                    { "Nudibranch", "Limited"},
+                    { "Okapi", "Uncommon"},
+                    { "Plating", "Uncommon"},
+                    { "Pufferfish", "Uncommon"},
+                    { "Remora", "Rare"},
+                    { "Ringlets", "Uncommon"},
+                    { "Runes", "Limited"},
+                    { "Sailfin", "Rare"},
+                    { "Soap", "Rare"},
+                    { "Sparkle", "Uncommon"},
+                    { "Stained", "Rare"},
+                    { "Tentacles", "Rare"},
+                    { "Underbelly", "Common"},
+                    { "Veined", "Limited"}
+
+                };
+
+                return genes;
+            }
+            else
 			{
 				string[,] genes = new string[,]
 				{
@@ -196,7 +234,9 @@ namespace Flight_Rising_BBCode
 					{"Keel", "Limited" },
 					{"Glowtail", "Rare" },
 					{"Koi", "Rare" },
-					{"Sparkle", "Uncommon" }
+					{"Sparkle", "Uncommon" },
+					{"Soap", "limited" },
+					{"Flecks", "Uncommon" }
 				};
 
 				return genes;
@@ -204,7 +244,7 @@ namespace Flight_Rising_BBCode
 		}
 
 
-		internal string[,] CreateSecondaryGeneList(object type)
+		internal string[,] CreateSecondaryGeneList(object type) //NEW
 		{
 			
 			if (type.ToString() == "Gaoler")
@@ -217,6 +257,7 @@ namespace Flight_Rising_BBCode
 					{"Blend", "Common" },
 					{"Daub", "Common" },
 					{"Facet", "Rare" },
+					{"Flare", "Uncommon" },
 					{"Hex", "Uncommon" },
 					{"Paint", "Common" },
 					{"Peregrine", "Common" },
@@ -304,6 +345,7 @@ namespace Flight_Rising_BBCode
 					{"Noxtide", "Uncommon" },
 					{"Freckle", "Common" }, // double check
 					{"Sarchophogas", "Rare" },
+					{"Flare", "Uncommon" },
 					{"Safari", "Common" },
 					{"Marbled", "Common" },
 					{"Sludge", "Limited" },
@@ -314,7 +356,38 @@ namespace Flight_Rising_BBCode
 
 				return genes;
 			}
-			else
+            else if (type.ToString() == "Undertide")
+            {
+                string[,] genes = new string[,]
+                {
+                    { "Basic", "Plentiful"},
+                    { "Bee", "Rare"},
+                    { "Blend", "Common"},
+                    { "Chess", "Common"},
+                    { "Daub", "Common"},
+                    { "Eel", "Uncommon"},
+                    { "Facet", "Rare"},
+                    { "Foam", "Limited"},
+                    { "Freckle", "Common"},
+                    { "Hex", "Uncommon"},
+                    { "Marbled", "Common"},
+                    { "Myrid", "Limited"},
+                    { "Noxtide", "Uncommon"},
+                    { "Pack", "Uncommon"},
+                    { "Peregrine", "Common"},
+                    { "Rings", "Limited"},
+                    { "Saddle", "Uncommon"},
+                    { "Safari", "Common"},
+                    { "Sarcophagus", "Rare"},
+                    { "Seraph", "Uncommon"},
+                    { "Toxin", "Limited"},
+                    { "Trail", "Limited"}
+
+                };
+
+                return genes;
+            }
+            else
 			{
 				string[,] genes = new string[,]
 				{
@@ -381,6 +454,7 @@ namespace Flight_Rising_BBCode
 				{"Falcon", "Common" },
 				{"Giraffe", "Uncommon" },
 				{"Jaguar", "Uncommon" },
+				{"Flaunt", "Uncommon" },
 				{"Piebald" , "Common"},
 				{"Pinstripe", "Limited" },
 				{"Tapir", "Common" },
@@ -464,6 +538,7 @@ namespace Flight_Rising_BBCode
 					{"Speckle", "Common" }, // double check
 					{"Pharoh", "Rare" },
 					{"Savannah", "Common" },
+					{"Flaunt", "Uncommon" },
 					{"Swirl", "Common" },
 					{"Slime", "Limited" },
 					{"Ribbon", "Uncommon" },
@@ -481,7 +556,38 @@ namespace Flight_Rising_BBCode
 
 				return genes;
 			}
-			else
+            else if (type == "Undertide")
+            {
+                string[,] genes = new string[,]
+                {
+                    { "Basic", "Plentiful"},
+                    { "Bar", "Uncommon"},
+                    { "Boa", "Uncommon"},
+                    { "Boulder", "Limited"},
+                    { "Checkers", "Common"},
+                    { "Cherub", "Uncommon"},
+                    { "Crystal", "Rare"},
+                    { "Fade", "Common"},
+                    { "Falcon", "Common"},
+                    { "Giraffe", "Uncommon"},
+                    { "Lionfish", "Uncommon"},
+                    { "Octopus", "Limited"},
+                    { "Pharaoh", "Rare"},
+                    { "Pinstripe", "Limited"},
+                    { "Poison", "Limited"},
+                    { "Ribbon", "Uncommon"},
+                    { "Ripple", "Uncommon"},
+                    { "Savannah", "Common"},
+                    { "Speckle", "Common"},
+                    { "Swirl", "Common"},
+                    { "Tide", "Limited"},
+                    { "Wasp", "Rare"},
+                    { "Wolf", "Uncommon"}
+
+                };
+                return genes;
+            }
+            else
 			{
 
 				string[,] genes = new string[,] {
@@ -535,7 +641,7 @@ namespace Flight_Rising_BBCode
 			}
 
 			
-		}
+		} //NEW
 
 		internal string [,] CreateBreedList()
 		{
@@ -559,11 +665,12 @@ namespace Flight_Rising_BBCode
 				{"Spiral", "Common" },
 				{"Tundra", "Plentiful" },
 				{"Veilspun", "Ancient" }, //Aquire New breed spelling and rate.
+				{"Undertide", "Ancient" },
 				{"Wildclaw", "Rare" }
 			};
 
 			return breeds;
-		}
+		} //NEW
 
 		internal string[,] CreateColorArray()
 		{
