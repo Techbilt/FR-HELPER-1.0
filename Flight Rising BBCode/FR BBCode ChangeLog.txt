@@ -1,5 +1,15 @@
 CHANGE LOG:
 
+11 JUN 2023
+	- Added missing Modern Genes
+	- Updated missing Veilspun Genes
+	- Updated missing Banescale Genes
+	- Updated missing Gaoler genes
+	- Updated missing Abberation genes
+
+	- Added Aether Breed and Genes
+
+
 24 NOV 2022
 	- Added Undertide Breed and Genes
 

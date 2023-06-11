@@ -65,27 +65,32 @@ namespace Flight_Rising_BBCode
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Gnarlhorns", "Rare" },
-					{"Shardflank", "Common" },
-					{"Wintercoat", "Uncommon" },
-					{"Weathered", "Limited" },
-					{"Ghost", "Uncommon" },
-					{"Ringlets", "Uncommon" },
-					{"Runes", "Limited" },
-					{"Smoke", "Uncommon" },
-					{"Thylacine", "Common" },
-					{"Underbelly", "Common" },
-					{"Scorpion", "Limited"},
-					{"Opal", "Rare" }, 
-					{"Blossom", "Limited" },
-					{"Capsule", "Limited" },
-					{"Fans", "Rare" },
-					{"Veined", "Limited" },
-					{"Braids", "Uncommon" },
-					{"Stained", "Rare" },
-					{"Sparkle", "Uncommon" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Angler", "Rare"},
+					{ "Blossom", "Limited"},
+					{ "Braids", "Uncommon"},
+					{ "Capsule", "Limited"},
+					{ "Contour", "Common"},
+					{ "Fans", "Rare"},
+					{ "Ghost", "Uncommon"},
+					{ "Glimmer", "Rare"},
+					{ "Gnarlhorns", "Uncommon"},
+					{ "Opal", "Rare"},
+					{ "Pinions", "Rare"},
+					{ "Ringlets", "Uncommon"},
+					{ "Runes", "Limited"},
+					{ "Scorpion", "Limited"},
+					{ "Shardflank", "Common"},
+					{ "Smoke", "Uncommon"},
+					{ "Sparkle", "Uncommon"},
+					{ "Stained", "Rare"},
+					{ "Thylacine", "Common"},
+					{ "Underbelly", "Common"},
+					{ "Veined", "Limited"},
+					{ "Weathered", "Limited"},
+					{ "Wintercoat", "Uncommon"}
+
+                };
 
 				return genes;
 			}
@@ -93,54 +98,63 @@ namespace Flight_Rising_BBCode
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Plumage", "Rare" },
-					{"Wraith", "Rare" },
-					{"Fans", "Rare" },
-					{"Trimmings", "Common" }, //check this one
-					{"Porcupine", "Limited" },
-					{"Skeletal", "Limited" },
-					{"Squiggle", "Limited" },
-					{"Ringlets", "Uncommon" },
-					{"Filigree", "Rare" },
-					{"Lace", "Uncommon" },
-					{"Contour", "Common" },
-					{"Ghost", "Uncommon" },
-					{"Crackle", "Uncommon" },
-					{"Glimmer", "Rare" },
-					{"Underbelly", "Common" },
-					{"Stained", "Rare" },
-					{"Capsule", "Limited" },
-					{"Sparkle", "Uncommon" },
-					{"Peacock", "Common" }
+                    { "Basic", "Plentiful"},
+					{ "Capsule", "Limited"},
+					{ "Contour", "Common"},
+					{ "Crackle", "Uncommon"},
+					{ "Fans", "Rare"},
+					{ "Filigree", "Rare"},
+					{ "Ghost", "Uncommon"},
+					{ "Gliders", "Limited"},
+					{ "Glimmer", "Rare"},
+					{ "Lace", "Uncommon"},
+					{ "Plumage", "Rare"},
+					{ "Porcupine", "Limited"},
+					{ "Ringlets", "Uncommon"},
+					{ "Skeletal", "Limited"},
+					{ "Sparkle", "Uncommon"},
+					{ "Squiggle", "Limited"},
+					{ "Stained", "Rare"},
+					{ "Trimmings", "Common"},
+					{ "Underbelly", "Common"},
+					{ "Wraith", "Rare"},
+					{ "Monarch", "Rare"},
+					{ "Soap", "Rare"},
+					{ "Spines", "Limited"}
 
-				};
+
+                };
 				return genes;
 			}
 			else if (type == "Veilspun")
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Beetle", "Limited" },
-					{"Branches", "Limited" },
-					{"Capsule", "Limited" },
-					{"Glimmer", "Rare" },
-					{"Crackle", "Uncommon" },
-					{"Diaphanous", "Rare" },
-					{"Firefly", "Limited" },
-					{"Flecks", "Limited" },
-					{"Mop", "Rare" },
-					{"Okapi", "UnCommon" },
-					{"Opal", "Rare" },
-					{"Peacock", "Common" },
-					{"Glimmer", "Rare" },
-					{"Runes", "Limited" },
-					{"Thorns", "Uncommon" }, // double check
-					{"Stained", "Rare" },
-					{"Underbelly", "Common" },
-					{"Sparkle", "Uncommon" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Angler", "Limited"},
+					{ "Beetle", "Limited"},
+					{ "Branches", "Limited"},
+					{ "Capsule", "Limited"},
+					{ "Crackle", "Uncommon"},
+					{ "Diaphanous", "Rare"},
+					{ "Firefly", "Limited"},
+					{ "Flecks", "Uncommon"},
+					{ "Glimmer", "Rare"},
+					{ "Mop", "Rare"},
+					{ "Okapi", "Uncommon"},
+					{ "Opal", "Rare"},
+					{ "Peacock", "Common"},
+					{ "Runes", "Limited"},
+					{ "Sparkle", "Uncommon"},
+					{ "Stained", "Rare"},
+					{ "Thorns", "Uncommon"},
+					{ "Thylacine", "Common"},
+					{ "Underbelly", "Common"},
+					{ "Ghost", "Uncommon"},
+					{ "Filigree", "Rare"},
+					{ "Veined", "Limited"}
+
+                };
 
 				return genes;
 			}
@@ -148,26 +162,27 @@ namespace Flight_Rising_BBCode
             {
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Fangs", "Uncommon" },
-					{"Kumo", "Common" },
-					{"Jewels", "Rare" },
-					{"Frills", "Rare" },
-					{"Mucous", "Limited" },
-					{"Polkadot", "Limited" },
-					{"Polypore", "Limited" },
-					{"Capsule", "Limited" },
-					{"Firefly", "Limited" },
-					{"Ghost", "Uncommon" },
-					{"Glowtail", "Rare" },
-					{"Peacock", "Common" },
-					{"Scales", "Limited" }, // double check
-					{"Thylacine", "Common" },
-					{"Veined", "Limited" },
-					{"Sparkle", "Uncommon" },
-					{"Glimmer", "Rare" },
-					{"Flecks", "Limited" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Capsule", "Limited"},
+					{ "Fangs", "Uncommon"},
+					{ "Firefly", "Limited"},
+					{ "Flecks", "Uncommon"},
+					{ "Frills", "Rare"},
+					{ "Ghost", "Uncommon"},
+					{ "Glimmer", "Rare"},
+					{ "Glowtail", "Rare"},
+					{ "Jewels", "Rare"},
+					{ "Kumo", "Common"},
+					{ "Mucous", "Limited"},
+					{ "Peacock", "Common"},
+					{ "Polkadot", "Limited"},
+					{ "Polypore", "Limited"},
+					{ "Scales", "Limited"},
+					{ "Sparkle", "Uncommon"},
+					{ "Thylacine", "Common"},
+					{ "Veined", "Limited"},
+
+                };
 
 				return genes;
 			}
@@ -203,41 +218,75 @@ namespace Flight_Rising_BBCode
 
                 return genes;
             }
+            else if (type == "Aether")
+            {
+                string[,] genes = new string[,]
+                {
+                    { "Basic", "Plentiful"},
+					{ "Monarch", "Rare"},
+					{ "Space", "Rare"},
+					{ "Stinger", "Uncommon"},
+					{ "Whiskers", "Uncommon"},
+					{ "Wish", "Rare"},
+					{ "Mandibles", "Limited"},
+					{ "Flutter", "Limited"},
+					{ "Circuit", "Rare"},
+					{ "Contour", "Common"},
+					{ "Gembond", "Limited"},
+					{ "Glowtail", "Rare"},
+					{ "Keel", "Limited"},
+					{ "Lace", "Uncommon"},
+					{ "points", "Uncommon"},
+					{ "Scales", "Limited"},
+					{ "Smirch", "Limited"},
+					{ "Smoke", "Uncommon"},
+					{ "Sparkle", "Uncommon"},
+					{ "Spines", "Limited"},
+					{ "Stained", "Rare"},
+					{ "Underbelly", "Common"}
+
+
+                };
+
+                return genes;
+            }
             else
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Underbelly", "Common" },
-					{"Gembond", "Limited" },
-					{"Circuit", "Rare" },
-					{"Crackle", "Uncommon" },
-					{"Smoke", "Uncommon" },
-					{"Okapi", "Uncommon" },
-					{"Glimmer", "Rare" },
-					{"Thylacine", "Common" },
-					{"Stained", "Rare" },
-					{"Runes", "Limited" },
-					{"Scales", "Limited" },
-					{"Lace", "Uncommon" },
-					{"Opal", "Rare" },
-					{"Capsule", "Limited" },
-					{"Smirch", "Limited" },
-					{"Contour", "Common" },
-					{"Firefly", "Limited" },
-					{"Filigree", "Rare" },
-					{"Ghost", "Uncommon" },
-					{"Peacock", "Common" },
-					{"Ringlets", "Uncommon" },
-					{"Spines", "Limited" },
-					{"Veined", "Limited" },
-					{"Keel", "Limited" },
-					{"Glowtail", "Rare" },
-					{"Koi", "Rare" },
-					{"Sparkle", "Uncommon" },
-					{"Soap", "limited" },
-					{"Flecks", "Uncommon" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Capsule", "Limited"},
+					{ "Circuit", "Rare"},
+					{ "Contour", "Common"},
+					{ "Crackle", "Uncommon"},
+					{ "Firefly", "Limited"},
+					{ "Filigree", "Rare"},
+					{ "Flecks", "Uncommon"},
+					{ "Gembond", "Limited"},
+					{ "Ghost", "Uncommon"},
+					{ "Glimmer", "Rare"},
+					{ "Glowtail", "Rare"},
+					{ "Keel", "Limited"},
+					{ "Koi", "Rare"},
+					{ "Lace", "Uncommon"},
+					{ "Okapi", "Uncommon"},
+					{ "Opal", "Rare"},
+					{ "Peacock", "Common"},
+					{ "Points", "Uncommon"},
+					{ "Ringlets", "Uncommon"},
+					{ "Runes", "Limited"},
+					{ "Scales", "Limited"},
+					{ "Smirch", "Limited"},
+					{ "Smoke", "Uncommon"},
+					{ "Soap", "Rare"},
+					{ "Sparkle", "Uncommon"},
+					{ "Spines", "Limited"},
+					{ "Stained", "Rare"},
+					{ "Thylacine", "Common"},
+					{ "Underbelly", "Common"},
+					{ "Veined", "Limited"},
+
+                };
 
 				return genes;
 			}
@@ -250,26 +299,37 @@ namespace Flight_Rising_BBCode
 			if (type.ToString() == "Gaoler")
 			{
 				string[,] genes = new string[,]	{
-					{"Basic", "Plentiful" },
-					{"Breakup", "Uncommon" },
-					{"Streak", "Common" },
-					{"Bee", "Rare" },
-					{"Blend", "Common" },
-					{"Daub", "Common" },
-					{"Facet", "Rare" },
-					{"Flare", "Uncommon" },
-					{"Hex", "Uncommon" },
-					{"Paint", "Common" },
-					{"Peregrine", "Common" },
-					{"Rosette", "Uncommon" },
-					{"Spirit", "Limited" },
-					{"Striation","Common" },
-					{"Stripes","Common" },
-					{"Trail","Limited" },
-					{"Eye Spots", "Common" },
-					{"Current" , "Common" },
-					{"Edged", "Common" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Bee", "Rare"},
+					{ "Blend", "Common"},
+					{ "Breakup", "Uncommon"},
+					{ "Clouded", "Common"},
+					{ "Current", "Uncommon"},
+					{ "Daub", "Common"},
+					{ "Edged", "Common"},
+					{ "Eel", "Uncommon"},
+					{ "Eye Spots", "Common"},
+					{ "Facet", "Rare"},
+					{ "Flair", "Uncommon"},
+					{ "Foam", "Limited"},
+					{ "Hex", "Uncommon"},
+					{ "Marbeled", "Common"},
+					{ "Paint", "Common"},
+					{ "Patchwork", "Limited"},
+					{ "Peregrine", "Common"},
+					{ "Rosette", "Uncommon"},
+					{ "Saddle", "Uncommon"},
+					{ "Safari", "Common"},
+					{ "Sludge", "Limited"},
+					{ "Spinner", "Limited"},
+					{ "Spirit", "Limited"},
+					{ "Streak", "Common"},
+					{ "Striation", "Common"},
+					{ "Stripes", "Common"},
+					{ "Toxin", "Limited"},
+					{ "Trail", "Limited"}
+
+                };
 
 				return genes;
 			}
@@ -277,28 +337,34 @@ namespace Flight_Rising_BBCode
 			{
 				string[,] genes = new string[,]
 				{
-					{"Toxin", "Limited" },
-					{"Spinner", "Limited" },
-					{"Blend", "Common" },
-					{"Butterfly", "Rare" },
-					{"Safari", "Common" },
-					{"Alloy", "Rare" },
-					{"Seraph", "Uncommon" },
-					{"Rosette", "Uncommon" },
-					{"Trail", "Limited" },
-					{"Stripes", "Common" },
-					{"Edged", "Common" },
-					{"Sugarplum", "Limited" },
-					{"Arrow", "Uncommon" }, 
-					{"Tear", "Uncommon" },
-					{"Mottle", "Common" },
-					{"Basic", "Plentiful" },
-					{"Eye Spots", "Common" },
-					{"Peregrine", "Common" },
-					{"Hex", "Uncommon" },
-					{"Striation", "Common" },
-					{"Clouded", "Common" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Alloy", "Rare"},
+					{ "Arrow", "Uncommon"},
+					{ "Blend", "Common"},
+					{ "Butterfly", "Rare"},
+					{ "Clouded", "Common"},
+					{ "Current", "Uncommon"},
+					{ "Edged", "Common"},
+					{ "Eye Spots", "Common"},
+					{ "Hex", "Uncommon"},
+					{ "Mottle", "Common"},
+					{ "Peregrine", "Common"},
+					{ "Rosette", "Uncommon"},
+					{ "Safari", "Common"},
+					{ "Spinner", "Limited"},
+					{ "Striation", "Common"},
+					{ "Stripes", "Common"},
+					{ "Sugarplum", "Limited"},
+					{ "Tear", "Limited"},
+					{ "Toxin", "Limited"},
+					{ "Trail", "Limited"},
+					{ "Daub", "Common"},
+					{ "Facet", "Rare"},
+					{ "Eel", "Uncommon"},
+					{ "Foam", "Limited"},
+					{ "Sarcophagus", "Rare"}
+
+                };
 
 				return genes;
 			}
@@ -306,23 +372,31 @@ namespace Flight_Rising_BBCode
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Bee", "Rare" },
-					{"Blend", "Common" },
-					{"Constellation", "Common" },
-					{"Edged", "Common" },
-					{"Hawkmoth", "Uncommon" }, // Doublecheck
-					{"Hypnotic", "Uncommon" }, // double check
-					{"Loop", "Limited" },
-					{"Pathcwork", "Limited" },
-					{"Saturn", "Uncommon" },
-					{"Spinner", "Limited" },
-					{"Striation", "Common" },
-					{"Vivid", "Uncommon" }, // double check
-					{"Web", "Uncommon" }, // Doublecheck
-					{"Eye spots", "Common" },
-					{"Hex", "Uncommon" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Bee", "Rare"},
+					{ "Blend", "Common"},
+					{ "Constellation", "Rare"},
+					{ "Edged", "Common"},
+					{ "Eye Spots", "Common"},
+					{ "Hawkmoth", "Uncommon"},
+					{ "Hex", "Common"},
+					{ "Hypnotic", "Uncommon"},
+					{ "Loop", "Uncommon"},
+					{ "Patchwork", "Limited"},
+					{ "Saturn", "Uncommon"},
+					{ "Spinner", "Limited"},
+					{ "Striation", "Common"},
+					{ "Vivid", "Uncommon"},
+					{ "Web", "Uncommon"},
+					{ "Peregrine", "Common"},
+					{ "Toxin", "Limited"},
+					{ "Sludge", "Limited"},
+					{ "Clouded", "Common"},
+					{ "Butterfly", "Rare"},
+					{ "Freckle", "Common"},
+					{ "Daub", "Common"}
+
+                };
 
 				return genes;
 			}
@@ -330,29 +404,30 @@ namespace Flight_Rising_BBCode
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Weaver", "Limited" },
-					{"Spade", "Limited" },
-					{"Blend", "Common" },
-					{"Daub", "Common" },
-					{"Facet", "Rare" },
-					{"Peregrene", "Common" },
-					{"Hex", "Uncommon" },
-					{"Striation", "Common" },
-					{"Hypnotic", "Uncommon" },
-					{"Fissure", "Limited" },
-					{"Rosette", "Uncommon" },
-					{"Noxtide", "Uncommon" },
-					{"Freckle", "Common" }, // double check
-					{"Sarchophogas", "Rare" },
-					{"Flare", "Uncommon" },
-					{"Safari", "Common" },
-					{"Marbled", "Common" },
-					{"Sludge", "Limited" },
-					{"Eel", "Uncommon" },
-					{"Patchwork", "Limited" },
-					{"Bee", "Rare" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Bee", "Rare"},
+					{ "Blend", "Common"},
+					{ "Daub", "Common"},
+					{ "Eel", "Uncommon"},
+					{ "Facet", "Rare"},
+					{ "Fissure", "Limited"},
+					{ "Flair", "Uncommon"},
+					{ "Freckle", "Common"},
+					{ "Hex", "Uncommon"},
+					{ "Hypnotic", "Uncommon"},
+					{ "Marbled", "Common"},
+					{ "Noxtide", "Uncommon"},
+					{ "Patchwork", "Limited"},
+					{ "Peregrine", "Common"},
+					{ "Rosette", "Uncommon"},
+					{ "Safari", "Common"},
+					{ "Sarcophagus", "Rare"},
+					{ "Sludge", "Limited"},
+					{ "Spade", "Limited"},
+					{ "Striation", "Common"},
+					{ "Weaver", "Limited"}
+
+                };
 
 				return genes;
 			}
@@ -387,49 +462,85 @@ namespace Flight_Rising_BBCode
 
                 return genes;
             }
+            else if (type == "Aether")
+            {
+                string[,] genes = new string[,]
+                {
+                    { "Basic", "Plentiful"},
+					{ "Blaze", "Uncommon"},
+					{ "Thread", "Common"},
+					{ "Flicker", "Rare"},
+					{ "Icing", "Limited"},
+					{ "Alloy", "Rare"},
+					{ "Blend", "Common"},
+					{ "Butterfly", "Rare"},
+					{ "Breakup", "Uncommon"},
+					{ "Constellation", "Rare"},
+					{ "Daub", "Common"},
+					{ "Edged", "Common"},
+					{ "Eyespots", "Common"},
+					{ "Flair", "Uncommon"},
+					{ "Foam", "Limited"},
+					{ "Morph", "Uncommon"},
+					{ "Myrid", "Limited"},
+					{ "Noxtide", "uncommon"},
+					{ "Paint", "Common"},
+					{ "Patch work", "Limited"},
+					{ "Rosette", "Uncommon"},
+					{ "Saturn", "Uncommon"},
+					{ "Spinner", "Limited"}
+
+
+                };
+
+                return genes;
+            }
             else
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Shimmer", "Rare" },
-					{"Stripes", "Common" },
-					{"Eye Spots", "Common" },
-					{"Freckle", "Common" },
-					{"Current", "Common" },
-					{"Daub", "Common" },
-					{"Facet", "Rare" },
-					{"Hypnotic", "Uncommon" },
-					{"Paint", "Common" },
-					{"Seraph", "Uncommon" },
-					{"Toxin", "Limited" },
-					{"Butterfly", "Rare" },
-					{"Hex", "Uncommon" },
-					{"Saturn", "Uncommon" },
-					{"Spinner", "Limited" },
-					{"Peregrine", "Common" },
-					{"Alloy", "Rare" },
-					{"Safari", "Common" },
-					{"Rosette", "Uncommon" },
-					{"Bee", "Rare" },
-					{"Striation", "Common" },
-					{"Trail", "Limited" },
-					{"Constellation", "Rare" },
-					{"Edged", "Common" },
-					{"Morph", "Uncommon" },
-					{"Noxtide", "Uncommon" },
-					{"Clouded", "Common" },
-					{"Marbled", "Common" },
-					{"Sludge", "Limited" },
-					{"Breakup", "Uncommon" },
-					{"Blend", "Common" },
-					{"Patchwork", "Limited" },
-					{"Flare", "Uncommon" },
-					{"Fissure", "Limited" },
-					{ "Sarchophogas", "Rare" },
-					{"Sludge", "Limited" },
-					{"Eel", "Uncommon" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Alloy", "Rare"},
+					{ "Bee", "Rare"},
+					{ "Blend", "Common"},
+					{ "Breakup", "Uncommon"},
+					{ "Butterfly", "Rare"},
+					{ "Clouded", "Common"},
+					{ "Constellation", "Rare"},
+					{ "Current", "Uncommon"},
+					{ "Daub", "Common"},
+					{ "Edged", "Common"},
+					{ "Eel", "Uncommon"},
+					{ "Eye Spots", "Common"},
+					{ "Facet", "Rare"},
+					{ "Fissure", "Limited"},
+					{ "Flair", "Uncommon"},
+					{ "Foam", "Limited"},
+					{ "Freckle", "Common"},
+					{ "Hex", "Uncommon"},
+					{ "Jester", "Rare"},
+					{ "Marbled", "Common"},
+					{ "Morph", "Uncommon"},
+					{ "Myrid", "Limited"},
+					{ "Noxtide", "Uncommon"},
+					{ "Paint", "Common"},
+					{ "Paisley", "Limited"},
+					{ "Patchwork", "Limited"},
+					{ "Peregrine", "Common"},
+					{ "Rosette", "Uncommon"},
+					{ "Safari", "Common"},
+					{ "Sarcophagus", "Rare"},
+					{ "Saturn", "Uncommon"},
+					{ "Seraph", "Uncommon"},
+					{ "Shimmer", "Rare"},
+					{ "Sludge", "Limited"},
+					{ "Spinner", "Limited"},
+					{ "Striation", "Common"},
+					{ "Stripes", "Common"},
+					{ "Toxin", "Limited"},
+					{ "Trail", "Limited"}
+
+                };
 
 				return genes;
 			}
@@ -444,115 +555,133 @@ namespace Flight_Rising_BBCode
 			{
 				//change the genes to Gaelor only types.
 				string[,] genes = new string[,] {
-				{ "Basic", "Plentiful" },
-				{ "Mosaic", "Uncommon" },
-				{"Shaggy", "Common" },
-				{"Phantom", "Limited" },
-				{"Bar", "Uncommon" },
-				{"Crystal", "Rare" },
-				{"Fade", "Common" },
-				{"Falcon", "Common" },
-				{"Giraffe", "Uncommon" },
-				{"Jaguar", "Uncommon" },
-				{"Flaunt", "Uncommon" },
-				{"Piebald" , "Common"},
-				{"Pinstripe", "Limited" },
-				{"Tapir", "Common" },
-				{"Tiger", "Common" },
-				{"Wasp", "Rare"  },
-				{"Clown", "Common" },
-				{"Ripple", "Common" },
-				{"Laced", "Common" }
-				};
+                { "Bar", "Uncommon"},
+				{ "Basic", "Plentiful"},
+				{ "Boa", "Uncommon"},
+				{ "Clown", "Common"},
+				{ "Crystal", "Rare"},
+				{ "Fade", "Common"},
+				{ "Falcon", "Common"},
+				{ "Flaunt", "Uncommon"},
+				{ "Giraffe", "Uncommon"},
+				{ "Jaguar", "Uncommon"},
+				{ "Laced", "Common"},
+				{ "Leopard", "Commonh"},
+				{ "Mosaic", "Uncommon"},
+				{ "Phantom", "Limited"},
+				{ "Piebald", "Common"},
+				{ "Pinstripe", "Limited"},
+				{ "Poison", "Limited"},
+				{ "Ribbon", "Uncommon"},
+				{ "Ripple", "Uncommon"},
+				{ "Savannah", "Common"},
+				{ "Shaggy", "Common"},
+				{ "Skink", "Limited"},
+				{ "Slime", "Limited"},
+				{ "Stitched", "Limited"},
+				{ "Swirl", "Common"},
+				{ "Tapir", "Common"},
+				{ "Tide", "Limited"},
+				{ "Tiger", "Common"},
+				{ "Wasp", "Rare"}
+
+                };
 				return genes;
 			}
 			else if (type == "Banescale")
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Marble", "Common" },
-					{"Ragged", "Uncommon" },
-					{"Chevron", "Uncommon" }, 
-					{"Candycane", "Limited" },
-					{"Cherub", "Uncommon" },
-					{"Fade", "Common" },
-					{"Jaguar", "Uncommon" },
-					{"Pinstripe", "Limited" },
-					{"Tiger", "Common" },
-					{"Laced", "Common" },
-					{"Poison", "Limited" },
-					{"Skink", "Limited" },
-					{"Petals", "Rare" },
-					{"Savannah", "Common" },
-					{"Metallic", "Rare" },
-					{"Clown", "Common" },
-					{"Falcon", "Common" },
-					{"Ripple", "Uncommon" },
-					{"Giraffe", "Uncommon" },
-					{"Tapir", "Common" },
-					{"Leopard", "Common" }
-				};
+                    { "Basic", "Plentiful"},
+					{ "Candycane", "Limited"},
+					{ "Cherub", "Uncommon"},
+					{ "Chevron", "Uncommon"},
+					{ "Clown", "Common"},
+					{ "Fade", "Common"},
+					{ "Falcon", "Common"},
+					{ "Giraffe", "Uncommon"},
+					{ "Jaguar", "Uncommon"},
+					{ "Laced", "Common"},
+					{ "Leopard", "Common"},
+					{ "Marble", "Common"},
+					{ "Metallic", "Rare"},
+					{ "Petals", "Rare"},
+					{ "Pinstripe", "Limited"},
+					{ "Poison", "Limited"},
+					{ "Ragged", "Uncommon"},
+					{ "Ripple", "Uncommon"},
+					{ "Savannah", "Common"},
+					{ "Skink", "Limited"},
+					{ "Tapir", "Common"},
+					{ "Tiger", "Common"},
+					{ "Vipera", "Uncommon"},
+					{ "Wasp", "Rare"},
+					{ "Bar", "Uncommon"},
+					{ "Crystal", "Rare"},
+					{ "Ribbon", "Uncommon"},
+					{ "Tide", "Limited"},
+					{ "Pharoh", "Rare"}
+
+                };
 				return genes;
 			}
 			else if (type == "Veilspun")
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Arc", "Limited" },
-					{"Bright", "Uncommon" }, // Double check
-					{"Fade", "Common" },
-					{"Jupiter", "Uncommon" },
-					{"Laced", "Common" },
-					{"Shell", "Uncommon" }, // Double check
-					{"Skink", "Limited" },
-					{"Sphinxmoth", "Uncommon" }, // double check
-					{"Starmap", "Rare" },
-					{"Stitched", "Limited" },
-					{"Tapir", "Common" },
-					{"Vipera", "Uncommon" },
-					{"Wasp", "Rare" },
-					{"Clown", "Common" },
-					{"Giraffe", "Uncommon" }
-				};
+                    { "Arc", "Uncommon"},
+					{ "Basic", "Plentiful"},
+					{ "Bright", "Uncommon"},
+					{ "Clown", "Common"},
+					{ "Fade", "Common"},
+					{ "Giraffe", "Uncommon"},
+					{ "Jupiter", "Uncommon"},
+					{ "Laced", "Common"},
+					{ "Shell", "Uncommon"},
+					{ "Skink", "Limited"},
+					{ "Sphinxmoth", "Uncommon"},
+					{ "Starmap", "Rare"},
+					{ "Stitched", "Rare"},
+					{ "Tapir", "Common"},
+					{ "Vipera", "Uncommon"},
+					{ "Wasp", "Rare"},
+					{ "Falcon", "Common"},
+					{ "Poison", "Limited"},
+					{ "Slime", "Limited"},
+					{ "Leopard", "Common"},
+					{ "Petals", "Rare"},
+					{ "Speckle", "Common"},
+					{ "Bar", "Uncommon"}
+
+                };
 				return genes;
 			}
 			else if (type == "Aberration")
 			{
 				string[,] genes = new string[,]
 				{
-					{"Basic", "Plentiful" },
-					{"Orb", "Limited" },
-					{"Diamond", "Limited" },
-					{"Fade", "Common" },
-					{"Bar", "Uncommon" },
-					{"Crystal", "Rare" },
-					{"Falcon", "Common" },
-					{"Giraffe", "Uncommon" },
-					{"Tapir", "Common" },
-					{"Vipera", "Uncommon" },
-					{"Ground", "Limited" },
-					{"Jaguar", "Uncommon" },
-					{"Lionfish", "Uncommon" },
-					{"Speckle", "Common" }, // double check
-					{"Pharoh", "Rare" },
-					{"Savannah", "Common" },
-					{"Flaunt", "Uncommon" },
-					{"Swirl", "Common" },
-					{"Slime", "Limited" },
-					{"Ribbon", "Uncommon" },
-					{"Stitched", "Limited" },
-					{"Wasp", "Rare" }//,
-					/*{"", "" },
-					{"", "" },
-					{"", "" },
-					{"", "" },
-					{"", "" },
-					{"", "" },
-					{"", "" },
-					{"", "" }*/
-				};
+                    { "Basic", "Plentiful"},
+					{ "Bar", "Uncommon"},
+					{ "Diamond", "Limited"},
+					{ "Crystal", "Rare"},
+					{ "Fade", "Common"},
+					{ "Falcon", "Common"},
+					{ "Flaunt", "Uncommon"},
+					{ "Giraffe", "Uncommon"},
+					{ "Ground", "Limited"},
+					{ "Jaguar", "Uncommon"},
+					{ "Lionfish", "Uncommon"},
+					{ "Orb", "Limited"},
+					{ "Pharaoh", "Rare"},
+					{ "Slime", "Limited"},
+					{ "Speckle", "Common"},
+					{ "Stitched", "Limited"},
+					{ "Swirl", "Common"},
+					{ "Tapir", "Common"},
+					{ "Vipera", "Uncommon"},
+					{ "Wasp", "Rare"},
+
+                };
 
 				return genes;
 			}
@@ -587,55 +716,86 @@ namespace Flight_Rising_BBCode
                 };
                 return genes;
             }
-            else
+            else if (type == "Aether")
+            {
+                string[,] genes = new string[,]
+                {
+                    { "Basic", "Plentiful"},
+					{ "Cinder", "Uncommon"},
+					{ "Spool", "Common"},
+					{ "Twinkle", "Rare"},
+					{ "Candy", "Limited"},
+					{ "Bar", "Uncommon"},
+					{ "Boulder", "Limited"},
+					{ "Clown", "Common"},
+					{ "Fade", "Common"},
+					{ "Flaunt", "Uncommon"},
+					{ "Jaguar", "Uncommon"},
+					{ "Jupiter", "Uncommon"},
+					{ "Laced", "Common"},
+					{ "Lionfish", "Uncommon"},
+					{ "Metallic", "Rare"},
+					{ "Mosaic", "Uncommon"},
+					{ "Petals", "Rare"},
+					{ "Piebald", "Common"},
+					{ "Python", "Uncommon"},
+					{ "Skink", "Limited"},
+					{ "Starmap", "Rare"},
+					{ "Stitched", "Limited"},
+					{ "Tide", "Limited"}
+
+
+                };
+
+                return genes;
+            }
+            else //Modern Genes
 			{
 
 				string[,] genes = new string[,] {
-				{ "Basic", "Plentiful" },
-				{ "Iridescent", "Rare" },
-				{"Tiger", "Common" },
-				{"Clown", "Common" },
-				{"Speckle", "Common" },
-				{"Ripple", "Uncommon" },
-				{"Bar", "Uncommon" },
-				{"Crystal", "Rare" },
-				{"Vipera", "Uncommon" },
-				{"Piebald" , "Common"},
-				{"Cherub", "Uncommon" },
-				{"Poison", "Limited" },
-				{"Petals", "Rare" },
-				{"Giraffe", "Uncommon" },
-				{"Jupiter", "Uncommon" },
-				{"Skink", "Limited" },
-				{"Falcon", "Common" },
-				{"Metallic", "Rare" },
-				{"Savannah ","Common" },
-				{"Jaguar", "Uncommon" },
-				{"Wasp", "Rare" },
-				{"Tapir", "Common" },
-				{"Pinstripe", "Limited" },
-				{"Laced", "Common" },
-				{"Lionfish", "Uncommon" },
-				{"Python", "Uncommon" },
-				{"Starmap", "Rare" },
-				{"Leopard", "Common" },
-				{"Slime", "Limited" },
-				{"Swirl", "Common" },
-				{"Mosaic", "Uncommon" },
-				{"Fade", "Common" },
-				{"Stitched", "Limited" },
-				{"Flaunt", "Uncommon" },
-				{"Ground", "Limited" },
-				{"Pharoh", "Rare" },
-				{"Slime", "Limited" },
-				{"Ribbon", "Uncommon" }/*,
-				{"", "" },
-				{"", "" },
-				{"", "" },
-				{"", "" },
-				{"", "" },
-				{"", "" }*/
-				};
+                { "Basic", "Plentiful"},
+				{ "Bar", "Uncommon"},
+				{ "Boulder", "Limited"},
+				{ "Cherub", "Uncommon"},
+				{ "Clown", "Common"},
+				{ "Crystal", "Rare"},
+				{ "Fade", "Common"},
+				{ "Falcon", "Common"},
+				{ "Fern", "Limited"},
+				{ "Flaunt", "Uncommon"},
+				{ "Giraffe", "Uncommon"},
+				{ "Ground", "Limited"},
+				{ "Harlequin", "Rare"},
+				{ "Iridescent", "Rare"},
+				{ "Jaguar", "Uncommon"},
+				{ "Jupiter", "Uncommon"},
+				{ "Laced", "Common"},
+				{ "Leopard", "Common"},
+				{ "Lionfish", "Uncommon"},
+				{ "Metallic", "Rare"},
+				{ "Mosaic", "Uncommon"},
+				{ "Petals", "Rare"},
+				{ "Pharaoh", "Rare"},
+				{ "Piebald", "Common"},
+				{ "Pinstripe", "Limited"},
+				{ "Poison", "Limited"},
+				{ "Python", "Uncommon"},
+				{ "Ribbon", "Uncommon"},
+				{ "Ripple", "Uncommon"},
+				{ "Savannah", "Common"},
+				{ "Skink", "Limited"},
+				{ "Slime", "Limited"},
+				{ "Starmap", "Rare"},
+				{ "Stitched", "Limited"},
+				{ "Swirl", "Common"},
+				{ "Tapir", "Common"},
+				{ "Tide", "Limited"},
+				{ "Tiger", "Common"},
+				{ "Vipera", "Uncommon"},
+				{ "Wasp", "Rare"},
+				{ "Speckle", "Common"}
+
+                };
 
 				return genes;
 			}
@@ -648,6 +808,7 @@ namespace Flight_Rising_BBCode
 			string[,] breeds = new string[,]
 			{
 				{"Aberration", "Ancient" },
+				{"Aether", "Ancient" },
 				{"Banescale", "Ancient" },
 				{"Bogsneak", "Uncommon" },
 				{"Coatl", "Rare" },
